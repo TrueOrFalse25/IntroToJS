@@ -17,9 +17,16 @@
         }
         
         greet();
+
+        function shoutTen()
+        {
+            console.log("10!");
+        }
     </script>
 </head>
-<body>
+<!-- Subchapter 5: basic events -->
+<body onload = "greet();">
+    <button onclick = "shoutTen();">Shout 10</button>
     <!-- Subchapter 1: the anatomy of a web page
     Hello World<br />
     Goodbye World
